@@ -4,36 +4,33 @@ This Excel-based dashboard visualises key insights from the Integrated Urgent Ca
 
 📥 Data Source
 Official Source: Patient Experience Survey (PES)
-IUC ADC data set and NHS 111 Patient Experience Survey 2025-26
-IUC ADC data set and NHS 111 Patient Experience Survey 2024-25
-IUC ADC data set and NHS 111 Patient Experience Survey 2023-24
-IUC ADC data set and NHS 111 Patient Experience Survey 2022-23
-IUC ADC data set and NHS 111 Patient Experience Survey 2021-22
-IUCADC_Data_KPI_Combined_Time_Series-to-Mar-2025-inc.-revisions-for-Apr23-to-Mar24-v2-1(Month Sheet for KPI Description)
+- IUCADC-Apr-to-May25.csv
+- IUCADC-Apr2022-to-Mar2023_REVISED.csv
+- IUCADC-Apr23-to-Mar24-Revised.csv
+- IUCADC-Apr23-to-Mar25-Revised-1.csv
+- IUCADC-to-March2022.csv
+- IUCADC_Data_KPI_Combined_Time_Series-to-Mar-2025-inc.-revisions-for-Apr23-to-Mar24-v2-1.xlsx(Access Month Sheet for KPI Description)
 
 All files were integrated into a single consolidated Excel file for unified analysis.
 
 🧹 Data Preparation
 ✅ Cleaning and Standardisation Steps:
-Merged All Files: Combined multiple yearly IUC datasets (2021–2026) into a single structured sheet.
-Date Formatting: Standardised all REPORTING_PERIOD entries (e.g., "APR-2025") into consistent Month-Year format.
-Missing Data Handling: Replaced empty ORG_NAME fields (e.g., Y00415, 0AR) with "UNKNOWN".
-Added a new column for KPI descriptions using VLOOKUP, referencing the downloaded KPI Glossary Excel file.
-Grouped KPIs into letter-based categories for visual clarity (e.g. A = Demand for IUC, B = Call Handling, etc.).
+- Merged All Files: Combined multiple yearly IUC datasets (2021–2026) into a single structured sheet.
+- Date Formatting: Standardised all REPORTING_PERIOD entries (e.g., "APR-2025") into consistent Month-Year format.
+- Missing Data Handling: Replaced empty ORG_NAME fields (e.g., Y00415, 0AR) with "UNKNOWN".
+- Added a new column for KPI descriptions using VLOOKUP, referencing the downloaded KPI Glossary Excel file.
+- Grouped KPIs into letter-based categories for visual clarity (e.g. A = Demand for IUC, B = Call Handling, etc.).
 
 📈 Dashboard Components
 🎨 Visual Elements Included:
 Chart	Description
-Clinical Workforce Utilisation	Pie chart showing distribution of call assessments by workforce type
-Total Calls by Region	Bar chart comparing total call volumes across NHS regions
-Call Handling Over Time	Line chart showing change in calls (received, answered, abandoned) by year
-Calls Abandonment Analysis	100% stacked bar showing abandonment patterns by year
-Disposition of Calls	Stacked bar chart categorising call outcomes across time
-NHS Service Activity	Combination chart illustrating different KPI categories
-Interactive Cards	KPI cards displaying grand totals for:
-- Total Calls Received
-- Total Calls Answered
-- Total Calls Abandoned
+- Clinical Workforce Utilisation	Pie chart showing distribution of call assessments by workforce type
+- Total Calls by Region	Bar chart comparing total call volumes across NHS regions
+- Call Handling Over Time	Line chart showing change in calls (received, answered, abandoned) by year
+- Calls Abandonment Analysis	100% stacked bar showing abandonment patterns by year
+- Disposition of Calls	Stacked bar chart categorising call outcomes across time
+- NHS Service Activity	Combination chart illustrating different KPI categories
+- Interactive Cards	KPI cards displaying grand totals.
 
 📊 Output
 The Excel file contains the complete analysis pipeline:
