@@ -1,0 +1,8 @@
+Sum of VALUE,Column Labels,,,
+Row Labels,Calls abandoned after 60 seconds,Calls abandoned in 30 seconds or less,Calls abandoned in over 30 seconds and up to and including 60 seconds,Grand Total
+2021,2228838,328814,328767,2886419
+2022,2874778,364460,441819,3681057
+2023,1503483,367334,315175,2185992
+2024,762068,216597,133213,1111878
+2025,82541,29101,16753,128395
+Grand Total,7451708,1306306,1235727,9993741
